@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(dplyr)
+library(knitr)
 library(reshape2)
 library(kableExtra)
 ```
@@ -338,7 +339,7 @@ gss_rel %>%
 
 ## Weaknesses and next steps
 
-A weakness with this methodology is that households without a telephone number are excluded with it being the respondent’s first point of contact with the conductors. The GSS estimates that roughly 1% of households in 2013 do not have a telephone service. The GSS however, accounts for the 1% of households without service by using weighted estimates to represent them. Another weakness with this survey is that it limits surveys to one taker per household and therefore, may elicit different responses from different members. However, telephone/online surveys are efficient and its easy accessibility allows conductors to cover a wide geographical area needed to cover large populations.
+A weakness with this methodology is that households without a telephone number are excluded with it being the respondent’s first point of contact with the conductors. The GSS estimates that roughly 1% of households in 2013 do not have a telephone service. The GSS however, accounts for the 1% of households without service by using weighted estimates to represent them. Another weakness with this survey is that it limits surveys to one taker per household and therefore, may elicit different responses from different members. However, telephone/online surveys are efficient and its easy accessibility allows conductors to cover a wide geographical area needed for large populations. Additionally, questions on the survey may have resulted in conformity bias where respondents lie about their income. These components must all be understood and included in future surveys so the same mistakes and biases are prevented. 
 
 \newpage
 
