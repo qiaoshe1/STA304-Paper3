@@ -75,7 +75,7 @@ gss_clean$income_respondent <- factor(gss_clean$income_respondent, levels = c("L
 gss_clean$income_family <- factor(gss_clean$income_family, levels = c("Less than $25,000", "$25,000 to $49,999", "$50,000 to $74,999", "$75,000 to $99,999", "$100,000 to $ 124,999", "$125,000 and more"))
 ```
 
-# Survery Methodology
+# Survey Methodology
 
 Data for the 2013 General Social Survey (GSS) on Social Identity was collected between June 2013 to March 2014. The target population for this survey included all residents 15 years of age in the ten Canadian provinces and were not full-time residents of an institution. Institutional residents are defined by Statistics Canada as persons who, other than staff or family members, reside in an institutional collective dwelling such as hospitals, jails, or nursing homes. The survey used stratified sampling and stratas were created based on geographic location. A simple random sample without replacement would be used on the stratas to obtain samples used for this survey. It however, accounts for the small immigrant and youth populations by oversampling certain geographic areas (strata).
 
